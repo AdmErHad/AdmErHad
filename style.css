@@ -536,7 +536,9 @@ footer{
 		margin-left:15px;
 		margin-right:15px;
 	}
-
+	header{
+		height:88vh;
+	}
 	#header-nav{
 		z-index:221;
 		height:100vh;
@@ -598,12 +600,13 @@ footer{
 		display:none;
 	}
 	.sales-conteiner-dots{
-		bottom:11%;
+		bottom:8%;
 	}
 	#main-info{
 		height:70vh;
 	}
 			#main-info ul li:nth-child(1){
+				font-size:18px;
 		width:85%;
 	}
 	#main-info ul li:nth-child(2){
@@ -615,11 +618,15 @@ footer{
 	#main-info-header{
 		top:6.5%;
 	}
+	#main-info-header p{
+		font-size:25px;
+	}
 		#main-info-header::before{
 	margin-top:-11.5%;
 }
 #main-info-info-element{
 	bottom:14%;
+		font-size:16px;
 }
 main{
 	height:75vh;
@@ -627,8 +634,12 @@ main{
 #main-main-text{
 	width:90%;
 }
+#main-span{
+	font-size:16px;
+}
 #main-text h1{
-	font-size:27px;
+	font-size:23px;
+	font-weight:bold;
 }
 #main-text p{
 	font-size:18px;
