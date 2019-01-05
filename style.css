@@ -86,6 +86,9 @@ header{
 	display:block;
 	overflow:hidden;
 	box-sizing:border-box;
+	background-origin:padding-box;
+	background-clip:border-box;
+	background-attachment:scroll;
 }
 header img{
     display:block;
