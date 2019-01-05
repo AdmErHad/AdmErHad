@@ -7,7 +7,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	const headerText = $('#header-text');
 	headerText.css('opacity','1')
-	headerText.css('top','56%')
+	headerText.css('top','55%')
 })
 
 $(document).ready(function(){
@@ -16,6 +16,7 @@ $(window).on("scroll",function(){
 	const salesElement = $("#sales-element1");
 	const salesElement2 = $("#sales-element2");
 	const salesElement3 = $("#sales-element3");
+	const salesElement4 = $("#sales-element4");
 	const salesElementOffsetTop = salesElement.offset().top;
 	const height = $('header').height();
 	const salesElementScroll = salesElementOffsetTop - height;
@@ -23,24 +24,12 @@ $(window).on("scroll",function(){
 		salesElement.css("opacity","1")
 		salesElement2.css("opacity","1")
 		salesElement3.css("opacity","1")
+		salesElement4.css("opacity","1")
 	}
 })
 })
 
-$(document).ready(function(){
-$(window).on("scroll",function(){
-		const winScrollTop = $(window).scrollTop();
-	const MainInfoElements = $("#main-info-info ul li");
-	const MainInfoElementsOffsetTop = MainInfoElements.offset().top;
-	const heightWin = $('header').height();
-	const MainInfoElementsScroll = MainInfoElementsOffsetTop - heightWin;
-	if(winScrollTop > MainInfoElementsScroll){
-		MainInfoElements.css("transform","scale(1)")
-		MainInfoElements.css("opacity","1")
 
-	}
-})
-})
 
 
 
