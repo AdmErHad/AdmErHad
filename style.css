@@ -704,9 +704,10 @@ footer{
 	}
 
 	#header-text h1{
-		font-size:23px;
+		font-size:24px;
 		font-weight:600;
 		margin-bottom:10px;
+		letter-spacing:0px;
 	}
 	#header-text span{
 		font-size:15px;
@@ -933,5 +934,6 @@ main{
 .li-active a{
 	color:#c59d5f;
 }
+
 
 
