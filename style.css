@@ -691,8 +691,8 @@ footer{
 			top:11px;
 		}
 	header{
-		min-height:94vh;
-		max-height:94vh;
+		min-height:100vh;
+		max-height:100vh;
 		background-position:right;
 	}
 	#header-text{
