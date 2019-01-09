@@ -691,8 +691,8 @@ footer{
 			top:11px;
 		}
 	header{
-		min-height:90vh;
-		max-height:90vh;
+		min-height:95vh;
+		max-height:95vh;
 		background-position:right;
 	}
 	#header-text{
@@ -700,11 +700,11 @@ footer{
 		left:50%;
 		width:90%;
 		transform:translate(-50%,-50%);
-		text-align:left;
+		text-align:center;
 	}
 
 	#header-text h1{
-		font-size:22px;
+		font-size:25px;
 		font-weight:600;
 		margin-bottom:10px;
 	}
@@ -713,7 +713,6 @@ footer{
 		margin-bottom:0;
 	}
 		#header-text p{
-		text-align:left;
 		margin-bottom:15px;
 		width:100%;
 		font-size:14px;
