@@ -58,3 +58,31 @@ $(document).ready(function(){
 	})
 })
 
+
+
+$(document).ready(function(){
+	let NavELements = $("#nav-search-elements")
+	$(".nav-element-search").on("click",function(){
+		$('body').css("overflow-y","hidden")
+		NavELements.css("visibility","visible")
+		NavELements.css("top","0")
+		NavELements.css("opacity","1")
+	$("#nav-cross").on("click",function(){
+		$('body').css("overflow-y","scroll")
+		NavELements.css("visibility","hidden")
+		NavELements.css("opacity","0")
+		NavELements.css("top","50px")
+	})
+	})
+})
+
+
+
+
+
+
+
+
+
+
+
