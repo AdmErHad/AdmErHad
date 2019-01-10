@@ -2,12 +2,19 @@ $(document).ready(function(){
 	$("#hamburger").click(function(){
 		$("#header-nav").toggleClass('active')
 		$("nav ul:nth-child(2)").toggleClass('active')
+		$("nav").toggleClass('active2')
+		$("#hamburger-top").toggleClass('active3')
+		$("#hamburger-top").toggleClass('active5')
+		$("#hamburger-middle").toggleClass('active3')
+		$("#hamburger-middle").toggleClass('active6')
+		$("#hamburger-bottom").toggleClass('active3')
+		$("#hamburger-bottom").toggleClass('active4')
 	})
 })
 $(document).ready(function(){
 	const headerText = $('#header-text');
 	headerText.css('opacity','1')
-	headerText.css('top','55%')
+	headerText.css('top','53%')
 })
 
 $(document).ready(function(){
