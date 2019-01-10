@@ -720,8 +720,8 @@ footer{
 		background:white;
 	}
 	header{
-		min-height:100vh;
-		max-height:100vh;
+		min-height:95vh;
+		max-height:95vh;
 		background-position:right;
 	}
 	#header-text{
@@ -733,7 +733,7 @@ footer{
 	}
 
 	#header-text h1{
-		font-size:29px;
+		font-size:27px;
 		font-weight:600;
 		margin-bottom:15px;
 		letter-spacing:0px;
@@ -742,7 +742,7 @@ footer{
 		font-size:16px;
 	}
 			#header-text p:nth-child(1){
-		font-size:17px;
+		font-size:15px;
 	}
 	
 	#header-text p:nth-child(1)::before{
@@ -760,8 +760,8 @@ footer{
 		#header-text p:nth-child(4){
 		margin-bottom:20px;
 		width:100%;
-		font-size:15px;
-		line-height:1.4em;
+		font-size:14px;
+		line-height:1.2em;
 		margin-top:15px;
 	}
 .header-element{
