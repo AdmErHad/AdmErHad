@@ -720,8 +720,8 @@ footer{
 		background:white;
 	}
 	header{
-		min-height:95vh;
-		max-height:95vh;
+		min-height:90vh;
+		max-height:90vh;
 		background-position:right;
 	}
 	#header-text{
