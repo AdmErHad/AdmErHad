@@ -733,7 +733,7 @@ footer{
 	}
 
 	#header-text h1{
-		font-size:29px;
+		font-size:27px;
 		font-weight:600;
 		margin-bottom:15px;
 		letter-spacing:0px;
@@ -742,7 +742,7 @@ footer{
 		font-size:15px;
 	}
 			#header-text p:nth-child(1){
-		font-size:16px;
+		font-size:15px;
 	}
 	
 	#header-text p:nth-child(1)::before{
@@ -759,15 +759,15 @@ footer{
 
 		#header-text p:nth-child(4){
 		margin-bottom:20px;
-		width:100%;
-		font-size:13px;
+		width:93%;
+		font-size:12px;
 		line-height:1.7em;
 		margin-top:15px;
 	}
 .header-element{
-	padding:7px 15px;
+	padding:5px 12px;
 	border:2px solid #c59d5f;
-	font-size:13px;
+	font-size:11px;
 	margin-left:0;
 }
 .header-element:nth-child(5){
@@ -992,6 +992,7 @@ main{
 .black2{
 	background:black;
 }
+
 
 
 
