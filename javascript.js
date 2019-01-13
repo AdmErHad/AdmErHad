@@ -11,11 +11,6 @@ $(document).ready(function(){
 		$("#hamburger-bottom").toggleClass('active4')
 	})
 })
-$(document).ready(function(){
-	const headerText = $('#header-text');
-	headerText.css('opacity','1')
-	headerText.css('top','53%')
-})
 
 $(document).ready(function(){
 $(window).on("scroll",function(){
@@ -86,7 +81,13 @@ $(document).ready(function(){
 
 
 
-
+$(document).ready(function(){
+	let NavLanguage = $("#nav-language");
+	$(".nav-lang").on("click",function(){
+		NavLanguage.toggle(100);
+		console.log('s')
+	})
+})
 
 
 
