@@ -726,7 +726,7 @@ footer{
 
 @media(max-width:640px){
 	nav{
-		height:60px;
+		height:70px;
 	}
 	nav ul{
 		left:0;
@@ -741,7 +741,7 @@ footer{
 		margin:0;
 		text-align:center;
 		display:block;
-		line-height:70px;
+		line-height:80px;
 	}
 		nav ul li::after{
 			content:'';
@@ -761,7 +761,7 @@ footer{
 	}
 	#nav-logo{
 		font-size:18px;
-		line-height:60px;
+		line-height:70px;
 	}
 		#hamburger{
 	display:block;
@@ -794,41 +794,43 @@ footer{
 		background:white;
 	}
 	header{
-		min-height:80vh;
-		max-height:80vh;
+		min-height:98vh;
+		max-height:98vh;
 		background-position:center;
-		box-shadow:0px 0px 35px -2px black;
 	}
 	#header-text{
-		top:50%;
+		top:42%;
 		left:50%;
 		width:95%;
 		transform:translate(-50%,-50%);
 		text-align:center;
 	}
 #header-text::before{
-	display:none;
+	height:50%;
+	top:118%;
+	margin-left:0;
 }
 	#header-text h1{
-		font-size:27px;
+		font-size:25px;
 		font-weight:600;
 		margin-bottom:5px;
 		letter-spacing:1px;
 		font-weight:lighter;
 	}
 	#header-text span{
-		font-size:19px;
+		font-size:17px;
 	}
 			#header-text p:nth-child(1){
 		font-size:18px;
 	}
 
 		#header-text p:nth-child(4){
+		margin:auto;
 		margin-bottom:20px;
-		width:100%;
+		width:90%;
 		line-height:1.2em;
-		font-size:14px;
-		margin-top:18px;
+		font-size:13px;
+		margin-top:8px;
 	}
 .header-element{
 	padding:7px 12px;
@@ -843,36 +845,33 @@ footer{
 
 #header-arrow2{
 	position:absolute;
-	top:84%;
+	top:85%;
 	transform:translateY(-50%) rotate(90deg);
-	left:34%;
+	left:39%;
 	background:#00000099;
-	padding:12px 6px 6px 12px;
+	padding:11px 11px 9px 11px;
 }
 #header-arrow2 img{
-	width:30px;
-	height:20px;
+	width:20px;
+	height:15px;
 }
 #header-arrow3{
 	position:absolute;
-	top:84%;
+	top:85%;
 	transform:translateY(-50%) rotate(-90deg);
-	right:34%;
+	right:39%;
 	background:#00000099;
-	padding:12px 6px 6px 12px;
+	padding:11px 11px 9px 11px;
 }
 #header-arrow3 img{
-	width:30px;
-	height:20px;
+	width:20px;
+	height:15px;
 }
 
 	#sales-conteiner{
-		min-height:95vh;
-		max-height:95vh;
+		min-height:105vh;
+		max-height:105vh;
 	}
-#sales-conteiner-header{
-	top:7%;
-}
 	#sales-conteiner-header h1{
 		font-size:18px;
 	}
@@ -892,8 +891,8 @@ footer{
 }
 
 			#sales-element1{
-				width:78%;
-				height:335px;
+				width:83%;
+				height:345px;
 	}
 #sales-elements p:nth-child(2){
 	font-size:16px;
