@@ -1458,7 +1458,7 @@ footer{
       }
       
       header{
-          height: 95vh;
+          height: 100vh;
           background-position: center;
       }
       
@@ -1468,7 +1468,7 @@ footer{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    height: calc(95vh - 15px);
+    height: calc(100vh - 15px);
     width: calc(100vw - 15px);
     border: 2px solid rgba(255, 255, 255, 0.48);
       }
@@ -1489,8 +1489,8 @@ footer{
       }
       
       header h1{
-          margin-top: -8px;
-          font-size: 42px;
+          margin-top: -12px;
+          font-size: 37px;
           margin-bottom: 12px;
           letter-spacing: 1px;
       }
@@ -1509,13 +1509,18 @@ footer{
       }
       
       .header-text-button{
-          padding: 8px 18px;
+          padding: 10px 18px;
           margin: 35px 10px;
           font-size: 14px;
       }
       
+      .header-text-button:nth-child(5){
+          background: white;
+          border: 0px;
+      }
+      
       main{
-          height: 155vh;
+          height: 105vh;
       }
       
       #main-top h1{
@@ -1526,11 +1531,15 @@ footer{
           margin: 0 auto;
           margin-top: 25px;
           width: 90%;
-          font-size: 16px;
+          font-size: 14px;
       }
       
       #main-elements{
           margin-top:0;
+      }
+      
+      #main-elements ul:nth-child(2){
+          display: none;
       }
       
       #main-elements ul li{
@@ -1550,15 +1559,17 @@ footer{
       }
       
       #main-button{
-          bottom: 5.5%;
+          bottom: 10%;
+          font-size: 17px;
+          letter-spacing: 0px;
       }
       
       section{
-          height: 75vh;
+          height: 80vh;
       }
       
       #section-text{
-          margin-top: 14%;
+          margin-top: 18%;
       }
       
       section span{
@@ -1566,13 +1577,13 @@ footer{
       }
       
       section h1{
-          font-size: 23px;
+          font-size: 21px;
       }
       
       section p{
           width: 85%;
           font-size: 14px;
-          margin-top: 22px;
+          margin-top: 30px;
       }
       
       section p:nth-child(3){
@@ -1580,12 +1591,13 @@ footer{
       }
       
       #section-button{
-          bottom: -70px;
+          bottom: -80px;
           font-size: 18px;
       }
       
       form{
           height: 90vh;
+          box-shadow: 0px 0px 25px 0px black;
       }
       
       #form-top{
@@ -1597,7 +1609,7 @@ footer{
       }
       
       form p{
-          font-size: 16px;
+          font-size: 14px;
           margin-top: 20px;
           width: 95%;
       }
@@ -1608,12 +1620,16 @@ footer{
       
       #input{
           height: 30px;
+          background: white;
+          color: black;
       }
       
       #textarea{
         height: 200px;
         min-height: 150px;
         max-height: 250px;
+        background: white;
+        color: black;
       }
       
       #form-button{
@@ -1622,11 +1638,11 @@ footer{
       }
       
       figure{
-          height: 95vh;
+          height: 105vh;
       }
       
       #figure-top{
-          top:50px;
+          top:90px;
           width: 95%;
       }
       
@@ -1639,12 +1655,14 @@ footer{
           font-size: 14px;
       }
       
-      iframe{
+      #maps{
+          top:60%;
           height: 250px;
       }
       
       #figure-button{
           font-size: 18px;
+          bottom: 10%;
       }
       
           footer{
