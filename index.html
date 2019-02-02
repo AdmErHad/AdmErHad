@@ -1,185 +1,241 @@
 <!doctype html>
 <html>
 	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">  
 		<meta charset="UTF-8">
-		<title>NaturalWin</title>
-		<link rel="Stylesheet"  href="style.css">
-		<link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<script type="text/javascript" src="javascript.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+		<title>...</title>
+        <link rel="Stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
+        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 	<body>
-	<nav>
-	<div id="nav-logo">NaturalWin</div>
-	<ul>
-	<li><a href="#">Home</li></a>
-	<li><a href="#">Oferta</li></a>
-	<li><a href="#">O Firmie</li></a>
-	<li><a href="#">Lokalizacja</li></a>
-	<li><a href="#">Kontakt</li></a>
-	</ul>
-	<div id="nav-elements">
-	<div class="nav-element nav-element-search"><img src="img/magnifying-glass.png" height="21px">
-	</div>
-	<div class="nav-element nav-lang">
-	<img src="img/language.png" height="21px">
-	
-	<div id="nav-language">
-	<div id="nav-language-arrow"></div>
-	<ul>
-	<li>PL</li>
-	<li>ANG</li>
-	</ul>
-	</div>
-	
-	</div>
-	</div>
-	<div id="hamburger">
-	<div id="hamburger-top"></div>
-	<div id="hamburger-middle"></div>
-	<div id="hamburger-bottom"></div>
-	</div>
-	
-		<div id="nav-search-elements">
-	<div id="nav-search-logo">NaturalWin</div>
-		<input id="nav-input" placeholder="Szukaj"></input>
-		<div id="nav-search-ofert">
-		<div class="search-element"></div>
-		<div class="search-element"></div>
-		<div class="search-element"></div>
-		<div class="search-element"></div>
-		<div class="search-element"></div>
-		<div class="search-element"></div>
-		<div class="search-element"></div>
-		</div>
-		<div id="nav-cross">
-		<div id="nav-cross-top"></div>
-		<div id="nav-cross-bottom"></div>
-		</div>
-		</div>
-		
-	</nav>
-	<header id="header">
-	<div id="header-text">
-	<p>O FIRMIE</p>
-	<h1>LOREM IPSUM TEKSTEM</h1><span>Lorem Ipsum Jest Tekstem</span>
-	<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy</p>
-	<div class="header-element">Zobacz więcej</div>
-	<div class="header-element">Zobacz więcej</div>
+        
+        
+        
+<nav>
+    
+    <div id="hamburger">
+    
+    <div id="ham-top"></div>
+    <div id="ham-middle"></div>
+    <div id="ham-bottom"></div>
+        
+    </div>
+    
+<ul id="menu">
+    
+        <li class="active"><a href="#header">HOME</a></li>
+    
+    <li class="active"><a href="#main">USŁUGI</a></li>
+    
+        <li class="active"><a href="#section">O FIRMIE</a></li>
 
-	</div>
-	<div id="header-dots">
-	<div class="header-dot"></div>
-	<div class="header-dot"></div>
-	<div class="header-dot"></div>
-	</div>
-	<div id="header-arrow2"><img src="img/down-arrow.png" height="64px"></div>
-	<div id="header-arrow3"><img src="img/down-arrow.png" height="64px"></div>
-	</header>
-	
-	<div id="sales-conteiner">
-	<div id="sales-conteiner-header">
-	<h1>NOWOŚCI</h1>
-	<h1>WYPRZEDAŻ</h1>
-	</div>
+    <li class="active"><a href="#contact">KONTAKT</a></li>
+    
+        <li class="active"><a href="#localization">LOKALIZACJA</a></li>
+    
+    </ul>
 
-	<div id="sales-elements">
-	<div id="sales-element1"><div id="sales-element-img1"></div><p>Lorem Ipsum jest tekstem stosowanym</p><br><p>23,00zł</p></div>
-	<div id="sales-element2"><div id="sales-element-img2"></div><p>Lorem Ipsum jest tekstem stosowanym</p><br><p>23,00zł</p></div>
-	<div id="sales-element3"><div id="sales-element-img3"></div><p>Lorem Ipsum jest tekstem stosowanym</p><br><p>23,00zł</p></div>
-	</div>
-	<div class="sales-conteiner-dots">
-	<div class="sales-dot black2"></div>
-	<div class="sales-dot"></div>
-	<div class="sales-dot"></div>
-	</div>
-	<img src="img/right-arrow.png" height="46px">
-	<img src="img/right-arrow.png" height="46px">
-	</div>
-	
-		<div id="main-info">
-	<div id="main-info-header">
-	<p>NASZE USŁUGI</p>
-	<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.</p>
-		</div>
-	<div class="main-info-info">
-	<div class="main-info-element"><img src="img/shipped.png" height="42px"><h1>Lorem Ipsum</h1><p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty przez znanego</p></div>
-	<div class="main-info-element"><img src="img/shipped.png" height="42px"><h1>Lorem Ipsum</h1><p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty przez znanego</p></div>
-	<div class="main-info-element"><img src="img/shipped.png" height="42px"><h1>Lorem Ipsum</h1><p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty przez znanego</p></div>
-	</div>
-	
-		<div class="main-info-info">
-	<div class="main-info-element"><img src="img/shipped.png" height="42px"><h1>Lorem Ipsum</h1><p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty przez znanego</p></div>
-	<div class="main-info-element"><img src="img/shipped.png" height="42px"><h1>Lorem Ipsum</h1><p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty przez znanego</p></div>
-	<div class="main-info-element"><img src="img/shipped.png" height="42px"><h1>Lorem Ipsum</h1><p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty przez znanego</p></div>
-	</div>
+    
+<ul id="nav-elements">
+    
+    <li><button>SEARCH</button></li>
+    <li><button>LANG</button></li>
+    
+    </ul>
+        
+        </nav>
+        
+        
+    <header id="header">
+                <div id="bg"></div>    
+            <div id="header-dots">
+                <ul>
+                
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                    
+                </ul>
+        </div>
+        
+        <div id="header-text">
+            <span>NaturalWin</span>
+            
+        <h1>Lorem & Ipsum</h1>
+            
+            
+        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty</p>
+        
 
-	<div id="main-info-info-element">Zobacz więcej</div>
-	</div>
-	
-	<main>
-	<div id="main-main-text">
-	<div id="main-text">
-	<span id="main-span">LOREM IPSUM JEST</span>
-	<h1>LOREM IPSUM JEST TEKSTEM</h1>
-	<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. jest tekstem stosowanym jako przykładowyjest tekstem stosowanym jako przykładowy</p>
-	<div id="main-element">Zobacz więcej</div>
-	</div>
-	</div>
-	</main>
-	
-		<section>
-	
-	<div id="sales-header">
-	<h1>OFERTA
-		<span>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.</span>
-	</h1>
-	</div>
-	
-	<div id="slider"></div>
-	
-	<div id="drag">
-	<div id="draggable">III</div>
-	</div>
-	
-	</section>
-	
-	<form>
-	<div id="form-input">
-	<div id="form-header">
-	<h1>KONTAKT</h1>
-	</div>
-	<input type="text" placeholder="E-mail">
-	<textarea name="nazwa" cols="x" rows="y" placeholder="Treść wiadomości"></textarea>
-	<div id="form-input-element">Wyślij</div>
-	</div>
-	</form>
-	
-	
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1315532.6971343632!2d22.34499335!3d49.910070649999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1545418072941" width="90%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
-	
-	<footer>
-	<div id="footer-header"><h1>Dane kontaktowe</h1></div>
-	<div id="footer-text">
-	Biuro handlowe:<br>
-	ul. Wiosenna 60,<br>
-	05-092, Łomianki<br>
-	<span>Tel: (22) 864-65-47 - Biuro<br>
-	Fax: (22) 122 52 55 - Biuro<br>
-	Tel: (+48) 501 301 819 - Anna Papierzyńska<br>
-	E-mail nalewki@n­alewki.pl</span>
-</div>
-	<div id="footer-bottom">
-	<p>© 2016 NALEWKI STAROPOLSKIE Karol Majewski i Wspólnicy Sp. z o.o. </p>
-	</div>
-	</footer>
-	
+            
+        <div class="header-text-button">Zobacz więcej</div>
+        <div class="header-text-button">Zobacz więcej</div>
+            
+        </div>
+        
+        <div id="header-arrow"><img src="img/arrow-down.png"></div>
+        
+        </header>
+
+        <main id="main">
+
+            <div id="main-top">
+            
+            <h1>NASZE USŁUGI</h1>
+                
+                <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w</p>
+               
+                </div>
+                
+                <div id="main-elements">
+                
+                <ul>
+                    
+                    <li>
+                        
+                    <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz</p>
+                    </li>
+                    
+                        <li>
+                        
+                    <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz</p>
+                    </li>
+                    
+                    <li>
+                        
+                    <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle</p>
+                    </li>
+                    
+                    </ul>
+                    
+                <ul>
+                    
+                    <li>
+                        
+                    <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle</p>
+                    </li>
+                    <li>
+                        
+                    <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle</p>
+                    </li>
+                    <li>
+                        
+                    <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle</p>
+                    </li>
+                    
+                    </ul>
+                
+                    
+                </div>
+            
+
+            <div id="main-button">Zobacz więcej</div>
+
+    
+</main>
+
+
+
+<section id="section">
+    
+    <div id="section-text">
+    
+    <span>LOREM IPSUM</span>
+        
+        <h1>LOREM IPSUM JEST TEKSTEM</h1>
+        
+        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.
+        Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu
+        
+        </p>
+        
+                <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.
+        Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym
+        
+        </p>
+    
+                <div id="section-button">Zobacz więcej</div>
+        
+    </div>
+
+    
+    </section>
+
+        <form id="contact">
+            
+            <div id="form-bg"></div>
+            
+            <div id="form-top">
+            
+            <h1>KONTAKT</h1>
+                
+                <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza.</p>
+            
+            </div>
+
+            <div id="form-input">
+            
+                <input type="text" id="input">
+                
+                <textarea type="text" id="textarea"></textarea>
+            
+            </div>
+            
+            <div id="form-button">Wyślij</div>
+
+</form>
+
+
+
+
+<figure id="localization">
+    
+    <div id="figure-top">
+    
+    <h1>NASZA LOKALIZACJA</h1>
+        
+        <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia.</p>
+    
+    </div>
+
+<iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150022.5260776746!2d16.85819458931987!3d54.01872442060937!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1549048330331" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <div id="figure-button">Zobacz więcej</div>
+    
+    </figure>
+
+<footer>
+
+    <div id="footer-top">
+    
+    <h1>DANE KONTAKTOWE</h1>
+        
+        </div>
+    
+    <div id="footer-text">
+    
+    <p>Lorem Ipsum jest tekstem <br>stosowanym jako przykładowy<br> wypełniacz w przemyśle poligraficznym.</p>
+    
+    </div>
+    
+    <div id="footer-bottom">Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</div>
+
+</footer>
+
+
+        
+        
 	</body>
+    <script src="script.js" defer></script>
 </html>
-
-
-
-
-
