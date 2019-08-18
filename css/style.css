@@ -190,14 +190,13 @@ body.curtain{
 
 .gc-home-curtain{
     position: absolute;
-    top: 100%;
-    width: 100%;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 200px;
     font-weight: bold;
-    text-align: center;
-    color: #ececec;
+    color: #00000013;
     z-index: -1;
-    display: none;
 }
 
 .gc-home-img{
