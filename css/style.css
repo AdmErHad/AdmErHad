@@ -181,23 +181,25 @@ body.curtain{
 .gc-home-img img{
     position: relative;
     width: 100%;
-    width: 350px;
+    transform: translateY(10px);
+    left: 7%;
+    width: 270px;
     z-index: 3;
 }
 
 .gc-home-img img:nth-child(3){
     position: absolute;
-    left: -15%;
-    top: 43%;
-    width: 190px;
+    left: 0;
+    top: 49%;
+    width: 160px;
     z-index: 2;
 }
 
 .gc-home-img img:nth-child(2){
     position: absolute;
-    left: 60%;
-    top: 42%;
-    width: 260px;
+    left: 52%;
+    top: 50%;
+    width: 240px;
     z-index: 2;
 }
 
@@ -207,7 +209,7 @@ body.curtain{
     transform: translateX(-50%);
     font-weight: bold;
     letter-spacing: -0.02em;
-    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.11);
     position: absolute;
     font-size: 250px;
     z-index: -1;
