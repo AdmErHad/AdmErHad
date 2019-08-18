@@ -142,6 +142,7 @@ body.curtain{
 .gc-home{
     position: relative;
     padding-top: 100px;
+    padding-bottom: 50px;
     background: #EFECEA;
     overflow: hidden;
     width: 100%;
@@ -156,10 +157,11 @@ body.curtain{
 .gc-home-header{
     margin: 0;
     padding: 0;
-    font-size: 52px;
-    line-height: .95;
+    font-family: sans-serif;
+    letter-spacing: -0.008em;
+    font-size: 48px;
+    line-height: 1;
     font-weight: 600;
-    letter-spacing: -.009em;
 }
 
 .gc-home-paragraph{
@@ -190,7 +192,7 @@ body.curtain{
 .gc-home-img img:nth-child(3){
     position: absolute;
     left: 0;
-    top: 49%;
+    top: 45%;
     width: 160px;
     z-index: 2;
 }
@@ -198,7 +200,7 @@ body.curtain{
 .gc-home-img img:nth-child(2){
     position: absolute;
     left: 52%;
-    top: 50%;
+    top: 46%;
     width: 240px;
     z-index: 2;
 }
