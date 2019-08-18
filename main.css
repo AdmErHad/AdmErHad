@@ -37,7 +37,7 @@ body.curtain{
     transition: height .45s ease, opacity .6s ease, transform .45s ease;
     overflow: hidden;
 }
-
+ 
 .gn-sidebar::after{
     content: '';
     position: absolute;
