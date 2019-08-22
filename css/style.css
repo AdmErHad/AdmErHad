@@ -317,7 +317,35 @@ body{
 
 
 @media (max-width: 375px) {
+
+    .ham{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 52px;
+        width: 52px;
+    }
     
+    .ham-top{
+        position: absolute;
+        top: 22.5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 21px;
+        height: 1px;
+        background: black;
+    }
+
+    .ham-bot{
+        position: absolute;
+        top: 28.5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 21px;
+        height: 1px;
+        background: black;
+    }
+
     .gc-wrapper-home{
         display: block;
         height: auto;
@@ -326,10 +354,10 @@ body{
     }
     
     .gc-contentL-home{
-        padding-top: 128px;
+        padding-top: 115px;
         padding-bottom: 0;
         width: 100vw;
-        height: 70vh;
+        height: 65vh;
         background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f6f6f6, #f2f2f2, #eeeeee);
     }
     
@@ -414,11 +442,11 @@ body{
     .gc-nav-logo-home{
         left: 10px;
         line-height: 50px;
-        font-size: 24px;
+        font-size: 29px;
     }
     
     .gc-nav-logo-home span{
-        font-size: 18px;
+        font-size: 22px;
     }
     
     .gc-nav-list-home{
