@@ -322,8 +322,8 @@ body{
         position: absolute;
         right: 0;
         top: 0;
-        height: 52px;
-        width: 52px;
+        height: 62px;
+        width: 62px;
     }
     
     .ham-top{
@@ -354,36 +354,39 @@ body{
     }
     
     .gc-contentL-home{
-        padding-top: 115px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
         padding-bottom: 0;
         width: 100vw;
-        height: 65vh;
+        height: 62vh;
         background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f6f6f6, #f2f2f2, #eeeeee);
     }
     
     .gc-headerL-home{
         position: relative;
-        font-size: 3em;
+        font-size: 52px;
         font-weight: 600;
         z-index: 21;
     }
     
     .gc-paragraphL-home{
         position: relative;
-        margin-top: 15px;
+        margin-top: 1em;
         font-size: 1.5em;
         z-index: 2;
     }
     
     .gc-scrollElement-home{
-        left: 3%;
-        bottom: 2%;
+        left: 6%;
+        bottom: 5%;
     }
         
     .gc-imgL-home{
-        position: relative;
+        position: absolute;
         margin: 0 auto;
-        margin-top: -150px;
         opacity: .2;
         width: 100%;
         z-index: 1;
@@ -440,8 +443,8 @@ body{
     }
       
     .gc-nav-logo-home{
-        left: 10px;
-        line-height: 50px;
+        left: 22px;
+        line-height: 62px;
         font-size: 29px;
     }
     
