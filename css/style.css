@@ -326,10 +326,10 @@ body{
     }
     
     .gc-contentL-home{
-        padding-top: 90px;
+        padding-top: 128px;
         padding-bottom: 0;
         width: 100vw;
-        height: 58vh;
+        height: 70vh;
         background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f6f6f6, #f2f2f2, #eeeeee);
     }
     
