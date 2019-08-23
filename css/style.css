@@ -7,7 +7,7 @@ body{
     padding: 0;
     min-width: 320px;
     max-width: 2560px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -367,15 +367,15 @@ body{
     
     .gc-headerL-home{
         position: relative;
-        font-size: 52px;
-        font-weight: 600;
+        font-size: 48px;
+        font-weight: 500;
         z-index: 21;
     }
     
     .gc-paragraphL-home{
         position: relative;
         margin-top: 1em;
-        font-size: 1.5em;
+        font-size: 1.4em;
         z-index: 2;
     }
     
@@ -388,7 +388,7 @@ body{
         position: absolute;
         margin: 0 auto;
         opacity: .2;
-        width: 100%;
+        width: 90%;
         z-index: 1;
     }
     
@@ -415,6 +415,7 @@ body{
     
     .gc-headerR-home{
         font-size: 2em;
+        font-weight: 500;
     }
     
     .gc-paragraphR-home{
